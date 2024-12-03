@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ormiston Primary School Strategies for Behavior Intervention</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="popup">
+        <div id="popup-content">
+            <h1>Ormiston Primary School Strategies for Behavior Intervention</h1>
+            <button onclick="closePopup()">Continue</button>
+        </div>
+    </div>
+    
+    <div id="main-content" style="display:none;">
+        <header>
+            <h1>SELECT A BEHAVIOUR</h1>
+            <img src="logo.png" alt="School Logo">
+        </header>
+<!-- Anxiety Section -->
+<div class="behavior-section">
+    <h2>Anxiety</h2>
+    <div class="tabs">
+        <button class="tab-button" onclick="showTab('anxiety-what')">What it is?</button>
+        <button class="tab-button" onclick="showTab('anxiety-tier1')">Tier 1 Strategies</button>
+        <button class="tab-button" onclick="showTab('anxiety-tier2')">Tier 2 Strategies</button>
+        <button class="tab-button" onclick="showTab('anxiety-resources')">Resources</button>
+    </div>
+
+    <div class="tab-content" id="anxiety-what">
+        <ul>
+            <li>Worry about everyday things and are unable to control them.</li>
+            <li>Frequently ask for help when trying to do tasks that they can do independently.
+            </li>
+            <li>Apprehensive to start and work independently. Need constant reassurance once they get started. 
+            </li>
+            <li>Seem unsure of themselves and have low self-confidence and self-esteem.
+            </li>
+            <li>Do not smile often. Unable to relax.
+            </li>
+            <li>Easily startled. Have a hard time concentrating. 
+            </li>
+        </ul>
+    </div>
+
+    <div class="tab-content" id="anxiety-tier1" style="display:none;">
+        <ul>
+            <li>Assure the learner that everyone gets stressed/frustrated/worried/ overwhelmed.
+            </li>
+            <li>Validate what the learner is experiencing: “I know you are frustrated because you feel this assignment is too hard”. </li>
+            <li>Normalize the feeling: “I also get frustrated when I think something is hard and so do other learners”.
+            </li>
+            <li>Teach practical relaxation/regulation techniques - deep breathing, count to 10, write in a journal.
+            </li>
+            <li>Scaffold tasks- break tasks into smaller parts, allow breaks after each part is completed, and allow them to do the easy or hard items first, whichever they prefer.
+            </li>
+            <li>Teach coping skills- recognize body signs (sweaty, racing heart, etc), label the emotion, use strategies that help you regulate (have a drink, go to a place to calm down, attempt an activity of interest (drawing, fidget toys, etc). 
+            </li>
+            <li>Allow proximal seating. Check on them often. 
+            </li>
+            <li>Reflective listening- listen to what learner says and repeat it back to them so they know you heard and understood them.</li>
+            
+        </ul>
+    </div>
+
+    <div class="tab-content" id="anxiety-tier2" style="display:none;">
+        <ul>
+            <li>Seek advice from pastoral care.</li>
+            <li>Discuss with SLT.</li>
+            <li>Hui with parents.</li>
+            <li>Ask parents to seek a GP appointment if they have concerns regarding the anxiety too.</li>
+            <li>External referral to health or social services.</li>
+            <li>Seek Counselling support- private sessions through the parents or 3 free sessions through the GP.</li>
+            <li>Provide 1:1 mentoring.</li>
+            <li>Check-in, check-out. This consists of learners checking in daily with an adult at the start of school to retrieve a goal sheet and encouragement, LCs provide feedback on the sheet throughout the day, learners check out.</li>
+            <li>Use non-verbal cues and signals to indicate if feeling overwhelmed.</li>
+            <li>Provide sensory tools and toys.</li>
+            
+        </ul>
+    </div>
+</div>
+    <div class="tab-content" id="anxiety-resources" style="display:none;">
+        <ul>
+            <li><a href="anxiety.pdf" target="_blank">Download Anxiety PDF</a></li>
+            <li><a href="https://teachwithgive.org/resource/classroom-management-non-verbal-cues/" target="_blank">Using non-verbal cues and signals</a></li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">Relaxation Techniques</a></li>
+            <li>Check-in, Check-out</li>
+            <li><a href="https://www.indeed.com/career-advice/career-development/reflective-listening" target="_blank">Reflective Thinking</a></li>
+            <li><a href="https://drive.google.com/drive/u/1/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">A-Z of Facing Feelings</a></li>
+            <li><a href="https://drive.google.com/file/d/1XoQAjeoLfDSUaPR3MIb3oY8N_LFwqzSg/view?usp=drive_link" target="_blank">All emotions are ok</a></li>
+            <li><a href="https://drive.google.com/file/d/1JcTl7W-Hb0s70F6P2zG4lMq7F0ynY7E3/view?usp=drive_link" target="_blank">A Volcano in my Tummy</a></li>
+            <li><a href="https://drive.google.com/file/d/1YmF1WjWRfx1kbuSKzH_bzbNWoMVimZTI/view?usp=drive_link" target="_blank">Emotion and stress  regulation magic tool box</a></li>
+            <li><a href="https://drive.google.com/file/d/1weCGPAVYh_Ppo5u81QVD-3B-tqxRWI16/view?usp=drive_link" target="_blank">I feel scenario cards</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+    function showTab(tabId) {
+        const contents = document.querySelectorAll('.tab-content');
+        contents.forEach(content => content.style.display = 'none');
+        document.getElementById(tabId).style.display = 'block';
+    }
+</script>
+
+
+
+
+<!-- Defiance Section -->
+<div class="behavior-section">
+    <h2>Defiance</h2>
+    <div class="tabs">
+        <button class="tab-button" onclick="showTab('defiance-what')">What it looks like</button>
+        <button class="tab-button" onclick="showTab('defiance-tier1')">Tier 1 Strategies</button>
+        <button class="tab-button" onclick="showTab('defiance-tier2')">Tier 2 Strategies</button>
+        <button class="tab-button" onclick="showTab('defiance-resources')">Resources</button>
+    </div>
+
+    <div class="tab-content" id="defiance-what">
+        <ul>
+            <li>Lash out verbally at others. Engage others in arguments and conflict.</li>
+            <li>Unwilling to let issues go or drop them.</li>
+            <li>Dislike being told what to do. Do the opposite of what is told.</li>
+            <li>Smile, cross arms, stomp feet, etc when asked to follow directives. Strong verbal protest.</li>
+            <li>Become aggressive and act out when told to do something.Refuse to comply with adult requests. Refuse to follow classroom routines.</li>
+            <li>Only enjoy tasks or activities they like or enjoy. Tantrums and meltdowns when asked to do something else.</li>
+        </ul>
+    </div>
+
+    <div class="tab-content" id="defiance-tier1" style="display:none;">
+        <ul>
+            <li>Acknowledging positive behavior- behaving appropriately, paying attention, being on task, prepared for work, sitting quietly, and being kind to others.</li>
+            <li>Avoid power struggles. Do not match the emotional level of the learner, remain calm, state the expectation, and walk away.</li>
+            <li>Clear and concise directions. Use a calm neutral tone.</li>
+            <li>Provide clear and acceptable choices. Have the learner decide in 10 seconds or you choose for them.</li>
+        </ul>
+    </div>
+
+    <div class="tab-content" id="defiance-tier2" style="display:none;">
+        <ul>
+            <li>Seek advice from pastoral care.</li>
+            <li>Discuss with SLT or redirect learner to SLT.</li>
+            <li>Hui with parents.</li>
+            <li>Time out of habitat. Redirect to office.</li>
+            <li>Time out of iBreak.</li>
+            <li>Goal setting, monitoring, and daily tracking sheet.</li>
+            <li>Behaviour contract.</li>
+        </ul>
+    </div>
+</div>
+
+    <div class="tab-content" id="defiance-resources" style="display:none;">
+        <ul>
+            <li><a href="https://www.edutopia.org/article/6-ways-help-students-odd/" target="_blank">Ways to Help Students with Oppositional Defiance Behaviors</a></li>
+            <li><a href="https://insightstobehavior.com/blog/7-effective-communication-techniques-manage-defiant-students/" target="_blank">Managing Defiant Students</a></li>
+            <li><a href="https://www.responsiveclassroom.org/when-children-are-defiant/" target="_blank">Responsive Classroom - When Children are Defiant</a></li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">Behavior Contract</a></li>
+            <li><a href="https://drive.google.com/file/d/1JcTl7W-Hb0s70F6P2zG4lMq7F0ynY7E3/view?usp=drive_link" target="_blank">A Volcano in my Tummy</a></li>
+            <li><a href="https://drive.google.com/file/d/133SMLzRQ_Lcb4GJr-vVKOZequQ0AhLio/view?usp=drive_link" target="_blank">Anger Manual</a></li>
+            <li><a href="https://drive.google.com/file/d/10aTsZ5f8qHMllrXabLQ_8A5X7Xd2UBda/view?usp=drive_link" target="_blank">The Red Beast</a></li>
+            <li><a href="https://drive.google.com/file/d/16IK4bLz-7L0MPtCRzds6njQZyeEtaEfX/view?usp=drive_link" target="_blank">Starving the Anger Gremlin</a></li>
+            <li><a href="https://drive.google.com/file/d/1o5ooBSxjAHs3B2MPWFvTYBkqA_xJ0CwV/view?usp=drive_link" target="_blank">How do i feel when i get angry</a></li>
+            <li><a href="https://drive.google.com/file/d/1Q87x4rbiVyaVtIkvOWxNTYsDNGGfv0Jr/view?usp=drive_link" target="_blank">Tucker Turtle</a></li>
+            <li><a href="https://drive.google.com/file/d/1PuxoLqRSkaqlCLdpUQ5KE63sI9_36zOI/view?usp=drive_link" target="_blank">Cool down plan</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+    function showTab(tabId) {
+        const contents = document.querySelectorAll('.tab-content');
+        contents.forEach(content => content.style.display = 'none');
+        document.getElementById(tabId).style.display = 'block';
+    }
+
+    function openPDF(pdfName) {
+        window.open(pdfName, '_blank');
+    }
+</script>
+
+<!-- Aggression/Bullying Section -->
+<div class="behavior-section">
+    <h2>Aggression/Bullying</h2>
+    <div class="tabs">
+        <button class="tab-button" onclick="showTab('aggression-what')">What it looks like:</button>
+        <button class="tab-button" onclick="showTab('aggression-tier1')">Tier 1 Strategies</button>
+        <button class="tab-button" onclick="showTab('aggression-tier2')">Tier 2 Strategies</button>
+        <button class="tab-button" onclick="showTab('aggression-resources')">Resources</button>
+    </div>
+
+    <div class="tab-content" id="aggression-what">
+        <ul>
+            <li>Verbally or physically harass others.</li>
+            <li>Engage in bullying activity, intimidation, threats.</li>
+            <li>Be observed hitting, kicking, and repeatedly pushing others.</li>
+            <li>Demonstrate intense anger.</li>
+            <li>Frequently lose temper or have blow-ups.</li>
+            <li>Hurt or interact roughly with others during play, recess, or free time.</li>
+            <li>Name call.</li>
+            <li>Instigate and be involved in frequent conflicts, arguments, and fights.</li>
+        </ul>
+    </div>
+
+    <div class="tab-content" id="aggression-tier1" style="display:none;">
+        <ul>
+            <li>Don’t make a huge deal out of it.</li>
+            <li>Remain in control of the environment. Redirect to established rules and expectations of the habitat.</li>
+            <li>Minimize verbal instructions. Use non-verbal signals to redirect/ calm down. Use choices.</li>
+            <li>Redirect to Zones of Regulation and tool-kit for strategies.</li>
+            <li>Clearly define and consistently enforce rules regarding respectful behavior, bullying, and aggression. Ensure the learner understands the consequences of such behavior.</li>
+            <li>Intervene Early. It can prevent behavior from escalating and sends a message that such actions are unacceptable.</li>
+            <li>Use Restorative Practices like group conversations, taking responsibility, and reflecting on one’s actions.</li>
+            <li>Encourage open communication. Create a safe space for students to express their concerns and feelings.</li>
+        </ul>
+    </div>
+
+    <div class="tab-content" id="aggression-tier2" style="display:none;">
+        <ul>
+            <li>Seek advice from pastoral care.</li>
+            <li>Discuss with SLT or redirect learner to SLT.</li>
+            <li>Hui with parents.</li>
+            <li>Time out of habitat.</li>
+            <li>Time out of iBreaks.</li>
+            <li>Slow release back into habitat or playground.</li>
+            <li>Restorative conversation.</li>
+            <li>Daily behavior tracking.</li>
+            <li>Behaviour Intervention Plan (made with support from SLT).</li>
+        </ul>
+    </div>
+</div>
+
+
+    <div class="tab-content" id="aggression-resources" style="display:none;">
+        <ul>
+            <li><a href="https://docs.google.com/presentation/d/1Defy6mjYinSEAktah9e957Xd9EgEkG8h/edit#slide=id.p1" target="_blank">Gentle Hands No Hitting</a></li>
+            <li><a href="https://docs.google.com/document/d/1Vmq2OMyBOvOF5VrBWoy4hdUHlQefxvKu/edit" target="_blank">Social Stories About Aggression</a></li>
+            <li><a href="https://drive.google.com/file/d/1WE9BHXm1-Stlxrh6kiW6qOJBWYeILOpM/view?usp=sharing" target="_blank">Social Story - Hitting</a></li>
+            <li><a href="https://drive.google.com/file/d/1e08PsDkLUfZE0w9CwsQXWT76Jnto6NXq/view?usp=sharing" target="_blank">Social Story Series - Aggressive Behaviors</a></li>
+            <li><a href="https://docs.google.com/presentation/d/1ZqFh2L5sL6TXyRAYjDOmXBR30SbTph7a/edit?usp=sharing&ouid=111209814759622241655&rtpof=true&sd=true" target="_blank">Social Story - Addressing Hitting</a></li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">Daily Behavior Tracking Sheet</a></li>
+            <li>How Big is My Problem?</li>
+            <li><a href="https://drive.google.com/file/d/1JcTl7W-Hb0s70F6P2zG4lMq7F0ynY7E3/view?usp=drive_link" target="_blank">A Volcano in my Tummy</a></li>
+            <li><a href="https://drive.google.com/file/d/1nm0GnFb461b_EE7PLdQQLqVMWSfqmTAM/view?usp=drive_link" target="_blank">Anger activity book</a></li>
+            <li><a href="https://drive.google.com/file/d/133SMLzRQ_Lcb4GJr-vVKOZequQ0AhLio/view?usp=drive_link" target="_blank">Anger Manual</a></li>
+            <li><a href="https://drive.google.com/file/d/10aTsZ5f8qHMllrXabLQ_8A5X7Xd2UBda/view?usp=drive_link" target="_blank">The Red Beast</a></li>
+            <li><a href="https://drive.google.com/file/d/16IK4bLz-7L0MPtCRzds6njQZyeEtaEfX/view?usp=drive_link" target="_blank">Starving the Anger Gremlin</a></li>
+            <li><a href="https://drive.google.com/file/d/1AIN0GBz3nXD2vbDYBKMjytSuhkHoCJ9h/view?usp=drive_link" target="_blank">Anger Iceberg Guide Activity Worksheets for Children</a></li>
+            <li><a href="https://drive.google.com/file/d/1lVX06zQaA_7P9GicChQEZcVbOnZY5nAK/view?usp=drive_link" target="_blank">Calm down anger with yoga</a></li>
+            <li><a href="https://drive.google.com/file/d/1o5ooBSxjAHs3B2MPWFvTYBkqA_xJ0CwV/view?usp=drive_link" target="_blank">How do i feel when i get angry</a></li>
+            <li><a href="https://drive.google.com/file/d/1Q87x4rbiVyaVtIkvOWxNTYsDNGGfv0Jr/view?usp=drive_link" target="_blank">Tucker Turtle</a></li>
+            <li><a href="https://drive.google.com/file/d/1PuxoLqRSkaqlCLdpUQ5KE63sI9_36zOI/view?usp=drive_link" target="_blank">Cool down plan</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+    function showTab(tabId) {
+        const contents = document.querySelectorAll('.tab-content');
+        contents.forEach(content => content.style.display = 'none');
+        document.getElementById(tabId).style.display = 'block';
+    }
+
+    function openPDF(pdfName) {
+        window.open(pdfName, '_blank');
+    }
+</script>
+
+   <!-- Disrespectful/Confrontational Section -->
+<div class="behavior-section">
+    <h2>Disrespectful/Confrontational</h2>
+    <div class="tabs">
+        <button class="tab-button" onclick="showTab('disrespectful-what')">What it looks like</button>
+        <button class="tab-button" onclick="showTab('disrespectful-tier1')">Tier 1 Strategies</button>
+        <button class="tab-button" onclick="showTab('disrespectful-tier2')">Tier 2 Strategies</button>
+        <button class="tab-button" onclick="showTab('disrespectful-resources')">Resources</button>
+    </div>
+
+    <div class="tab-content" id="disrespectful-what">
+        <ul>
+            <li>Frequent engagement of confrontation with adults and peers.</li>
+            <li>Frequent talking back to adults.</li>
+            <li>Destructive of others’ property.</li>
+            <li>Take and use others’ things without asking or caring about personal space.</li>
+            <li>Dismissive of others.</li>
+            <li>Unwilling to consider others’ ideas and opinions.</li>
+            <li>Have no regard for others’ feelings, well-being, and safety.</li>
+            <li>Lash out verbally at others.</li>
+            <li>Challenge the authority of the adult.</li>
+            <li>Refuse to comply with adult requests.</li>
+            <li>Refuse to follow habitat routines.</li>
+        </ul>
+    </div>
+
+    <div class="tab-content" id="disrespectful-tier1" style="display:none;">
+        <ul>
+            <li>Acknowledge positive behavior. When the learner is seen behaving appropriately, paying attention, being on task, prepared for work, sitting quietly, being kind to others, etc., make a remark about how happy or proud you are.</li>
+            <li>Avoid power struggles. LC to remain calm.</li>
+            <li>Redirect. Ask the learner to find a space to calm down. Give a break.</li>
+            <li>Explain the assignment/directions to the learner using eye contact. Have the learner repeat the directions to you.</li>
+            <li>Provide consequences matching the severity of the behavior, e.g., missing ibreak, privileges withdrawn.</li>
+            <li>Walk away. Don’t engage in a conversation about it.</li>
+            <li>Ask learner to reflect on behavior using the Reflection sheet.</li>
+            
+        </ul>
+    </div>
+
+    <div class="tab-content" id="disrespectful-tier2" style="display:none;">
+        <ul>
+            <li>Seek advice from pastoral care.</li>
+            <li>Discuss with SLT or redirect learner to SLT.</li>
+            <li>Hui with parents.</li>
+            <li>Time out of habitat.Redirect to office.</li>
+            <li>Restorative conversation.</li>
+        </ul>
+    </div>
+</div>
+
+    <div class="tab-content" id="disrespectful-resources" style="display:none;">
+        <ul>
+            <li><a href="https://www.teacherspayteachers.com/browse/free?search=check%20in%20check%20out%20behavior%20sheet" target="_blank">Check-in, Check-out</a></li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">Self Reflection Sheet</a></li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">Daily Behavior Tracking Sheet</a></li>
+            <li><a href="https://drive.google.com/file/d/10aTsZ5f8qHMllrXabLQ_8A5X7Xd2UBda/view?usp=drive_link" target="_blank">The Red Beast</a></li>
+            <li><a href="https://drive.google.com/file/d/16IK4bLz-7L0MPtCRzds6njQZyeEtaEfX/view?usp=drive_link" target="_blank">Starving the Anger Gremlin</a></li>
+            <li><a href="https://drive.google.com/file/d/1AIN0GBz3nXD2vbDYBKMjytSuhkHoCJ9h/view?usp=drive_link" target="_blank">Anger Iceberg Guide Activity Worksheets for Children</a></li>
+            <li><a href="https://drive.google.com/file/d/1Q87x4rbiVyaVtIkvOWxNTYsDNGGfv0Jr/view?usp=drive_link" target="_blank">Tucker Turtle</a></li>
+            <li><a href="https://drive.google.com/file/d/1PuxoLqRSkaqlCLdpUQ5KE63sI9_36zOI/view?usp=drive_link" target="_blank">Cool down plan</a></li>
+            <li><a href="https://docs.google.com/presentation/d/1eIR2WQZSEvGUkAh775ZBeuYD19qgBywE/edit?usp=drive_link&ouid=116433690043228594695&rtpof=true&sd=true" target="_blank">Appropriate Words to Express Feelings</a></li>
+            <li><a href="https://drive.google.com/file/d/1WpUwjV2aoEw9cXk0gU3ZwK3T8Y_Y3yL4/view?usp=drive_link" target="_blank">Social skills mix and match faces</a></li>
+            <li><a href="https://drive.google.com/file/d/12FqK7Ut-03uAK-jrWRadEc69VtcdLXzq/view?usp=drive_link" target="_blank">Classroom Management Strategies Angry and Defiant Behaviour Discipline</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+    function showTab(tabId) {
+        const contents = document.querySelectorAll('.tab-content');
+        contents.forEach(content => content.style.display = 'none');
+        document.getElementById(tabId).style.display = 'block';
+    }
+
+    function openPDF(pdfName) {
+        window.open(pdfName, '_blank');
+    }
+</script>
+
+
+   <!-- Off-task/Disruptive Section -->
+<div class="behavior-section">
+    <h2>Off-task/Disruptive</h2>
+    <div class="tabs">
+        <button class="tab-button" onclick="showTab('offtask-what')">What it is?</button>
+        <button class="tab-button" onclick="showTab('offtask-tier1')">Tier one intervention</button>
+        <button class="tab-button" onclick="showTab('offtask-tier2')">Tier two intervention</button>
+        <button class="tab-button" onclick="showTab('offtask-resources')">Resources</button>
+    </div>
+
+    <div class="tab-content" id="offtask-what">
+        <ul>
+            <li>Annoying and distracting to others.</li>
+            <li>Pestering.</li>
+            <li>Ask a lot of obvious questions.</li>
+            <li>Make frequent and unnecessary comments and questions.</li>
+            <li>Doing everything other than what they should be doing.</li>
+            <li>Talk to others frequently.</li>
+            <li>Throw objects.</li>
+            <li>Yell out.</li>
+        </ul>
+    </div>
+
+    <div class="tab-content" id="offtask-tier1" style="display:none;">
+        <ul>
+            <li>Avoid power struggle. DO NOT match the emotional level of the student, rather remain calm, cool, and collected.</li>
+            <li>Explain assignment/directions.</li>
+            <li>Simplify tasks.</li>
+            <li>Explain the assignment/directions to the learner using eye contact and getting down to their level.</li>
+            <li>Have the learner repeat and explain each part of the directions back to you.</li>
+            <li>Move to a new location. Team up with a buddy.</li>
+            <li>Praise when on task. Make praises specific, personalized, and individualized. Eg. “I like how you have brought your folder/work and are all ready for your learning today”.</li>
+        </ul>
+    </div>
+
+    <div class="tab-content" id="offtask-tier2" style="display:none;">
+        <ul>
+            <li>Seek advice from pastoral care.</li>
+            <li>Discuss with SLT or redirect learner to SLT.</li>
+            <li>Hui with parents.</li>
+            <li>Restorative conversation.</li>
+            <li>Time out of habitat to complete task.</li>
+            <li>Time out of iBreak to complete task.</li>
+        </ul>
+    </div>
+</div>
+
+    <div class="tab-content" id="offtask-resources" style="display:none;">
+        <ul>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">Self Reflection Sheet</a></li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">Daily Behavior Tracking Sheet</a></li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/19ojAa9X55_M4bjSLAA4ZhjsCBHqg1rhn" target="_blank">Off Task - Teacher Tips</a></li>
+            <li><a href="https://drive.google.com/file/d/12FqK7Ut-03uAK-jrWRadEc69VtcdLXzq/view?usp=drive_link" target="_blank">Classroom Management Strategies Angry and Defiant Behaviour Discipline</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+    function showTab(tabId) {
+        const contents = document.querySelectorAll('.tab-content');
+        contents.forEach(content => content.style.display = 'none');
+        document.getElementById(tabId).style.display = 'block';
+    }
+</script>
+
+ <!-- Upset/Crying Section -->
+<div class="behavior-section">
+    <h2>Upset/Crying</h2>
+    <div class="tabs">
+        <button class="tab-button" onclick="showTab('upset-what')">What it is?</button>
+        <button class="tab-button" onclick="showTab('upset-tier1')">Tier one intervention</button>
+        <button class="tab-button" onclick="showTab('upset-tier2')">Tier two intervention</button>
+        <button class="tab-button" onclick="showTab('upset-resources')">Resources</button>
+    </div>
+    <div class="tab-content" id="upset-what">
+        <ul>
+            <li>Have frequent emotional meltdowns.</li>
+            <li>Cry frequently over “small” things like lost place in line or wrong answer.</li>
+            <li>Appear distraught, disturbed, or sad.</li>
+            <li>Have trouble pulling themselves together and calming down.</li>
+            <li>Refuse to be comforted, push others away.</li>
+            <li>Be unable to talk or verbally express concerns.</li>
+            <li>Rock, hold head or face in hands, turn away or back to others, put hand up, shake head “no.”</li>
+            <li>Not knowing what they want when asked.</li>
+            <li>Ask to be left alone, run away, or sit in a corner in the habitat.</li>
+            <li>Put hand to mouth and flutter hands and/or arms.</li>
+            <li>Make statements like “I can’t do this,” “This isn’t happening,” “I can’t take this,” etc.</li>
+        </ul>
+    </div>
+    <div class="tab-content" id="upset-tier1" style="display:none;">
+        <ul>
+            <li>Provide reassurance and encourage deep breathing.</li>
+            <li>Speak in a calm, neutral voice. DO NOT match the emotional state of the student. Stay neutral in your demeanor and ask only factual questions.</li>
+            <li>Redirect to strategies from the Zones of Regulation toolkit.</li>
+            <li>Move to a breakout room or another space in the habitat.</li>
+            <li>Instill confidence in the learner: “I know you can do it and I think you know you can too.”</li>
+            <li>Allow time to calm down. Give choices when ready.</li>
+            <li>Teach coping skills at a different time so they are more ready for a difficult situation next time.</li>
+            <li>Reflective listening: listen to what the learner says and repeat it back to them so they know you heard and understood them.</li>
+        </ul>
+    </div>
+    <div class="tab-content" id="upset-tier2" style="display:none;">
+        <ul>
+            <li>Seek advice from pastoral care.</li>
+            <li>Discuss with SLT (Senior Leadership Team) or redirect the learner to SLT.</li>
+            <li>Hui (meeting) with parents to understand triggers.</li>
+            <li>Time out of habitat.</li>
+            <li>Well-being check.</li>
+        </ul>
+    </div>
+</div>
+    <div class="tab-content" id="upset-resources" style="display:none;">
+        <ul>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">Zones of Regulation</a></li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">Breathing Exercises</a></li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">Relaxation Stretching</a></li>
+            <li><a href="https://www.indeed.com/career-advice/career-development/reflective-listening" target="_blank">Reflective Thinking</a></li>
+            <li><a href="https://drive.google.com/file/d/1XoQAjeoLfDSUaPR3MIb3oY8N_LFwqzSg/view?usp=drive_link" target="_blank">All emotions are ok</a></li>
+            <li><a href="https://drive.google.com/file/d/1YmF1WjWRfx1kbuSKzH_bzbNWoMVimZTI/view?usp=drive_link" target="_blank">Emotion and stress  regulation magic tool box</a></li>
+            <li><a href="https://drive.google.com/file/d/1weCGPAVYh_Ppo5u81QVD-3B-tqxRWI16/view?usp=drive_link" target="_blank">I feel scenario cards</a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    function showTab(tabId) {
+        const contents = document.querySelectorAll('.tab-content');
+        contents.forEach(content => content.style.display = 'none');
+        document.getElementById(tabId).style.display = 'block';
+    }
+</script>
+
+<!-- Not Ready to Learn Section -->
+<div class="behavior-section">
+    <h2>Not Ready to Learn</h2>
+    <div class="tabs">
+        <button class="tab-button" onclick="showTab('notready-what')">What it is?</button>
+        <button class="tab-button" onclick="showTab('notready-tier1')">Tier one intervention</button>
+        <button class="tab-button" onclick="showTab('notready-tier2')">Tier two intervention</button>
+        <button class="tab-button" onclick="showTab('notready-resources')">Resources</button>
+    </div>
+    <div class="tab-content" id="notready-what">
+        <ul>
+            <li>Appears confused and distracted.</li>
+            <li>Lacks focus on the task.</li>
+            <li>Shows a lack of engagement with the task.</li>
+            <li>Quietly blends in while doing nothing, doodling, or pretending to work.</li>
+            <li>Spends excessive time searching through things (desk, locker, etc.).</li>
+            <li>Say they are getting to the task or are working on something and produce few results.</li>
+            <li>Does not have necessary tools for the lesson (e.g., books, writing tools).</li>
+            <li>Lacks confidence or has difficulty with comprehension and memory skills.</li>
+            <li>Difficulty following verbal instructions.</li>
+            <li>Difficulty following complex instructions.</li>
+            <li>Has poor organizational skills.</li>
+            <li>Gives many excuses.</li>
+        </ul>
+    </div>
+    <div class="tab-content" id="notready-tier1" style="display:none;">
+        <ul>
+            <li>Assign a buddy to assist with transitions/setup/organization.</li>
+            <li>Break down assignments/ simplify instructions. Have them do the easy or the hard items first, whichever they prefer.</li>
+            <li>Allow the learner to check back to you after the completion of a small section of the task.</li>
+            <li>Give 1:1 support at the beginning, make eye contact, and gain attention.</li>
+            <li>Redirect to the Zones of Regulation toolkit. Redirect to strategies that can get them ready to learn.</li>
+            <li>Use a visual planner/ schedule for all activities and tasks. This can include information on what group the learner is in, what is required before each session etc.</li>
+            <li>Explain the assignment/directions to the learner using eye contact. Have the learner repeat the directions to you.</li>
+        </ul>
+    </div>
+    <div class="tab-content" id="notready-tier2" style="display:none;">
+        <ul>
+            <li>Seek advice from pastoral care.</li>
+            <li>Discuss with SLT or redirect learner to SLT.</li>
+            <li>Hui with parents.</li>
+            <li>Time out of the habitat to complete the task.</li>
+            <li>Time out of iBreak to complete tasks.</li>
+            <li>Goal setting, monitoring and tracking.</li>
+        </ul>
+    </div>
+</div>
+
+    <div class="tab-content" id="notready-resources" style="display:none;">
+        <ul>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">Zones of Regulation</a></li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">Non-verbal Cues and Signals</a></li>
+            <li><a href="https://www.understood.org/en/articles/how-to-teach-your-grade-schooler-organization-skills" target="_blank">Teach Organizational Skills</a></li>
+            <li>Visual Schedules (TPT)?</li>
+            <li><a href="https://drive.google.com/file/d/1Q87x4rbiVyaVtIkvOWxNTYsDNGGfv0Jr/view?usp=drive_link" target="_blank">Tucker Turtle</a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    function showTab(tabId) {
+        const contents = document.querySelectorAll('.tab-content');
+        contents.forEach(content => content.style.display = 'none');
+        document.getElementById(tabId).style.display = 'block';
+    }
+</script>
+
+
+    <!-- Lack of Social Skills Section -->
+<div class="behavior-section">
+    <h2>Lack of Social Skills</h2>
+    <div class="tabs">
+        <button class="tab-button" onclick="showTab('socialskills-what')">What it is?</button>
+        <button class="tab-button" onclick="showTab('socialskills-tier1')">Tier one intervention</button>
+        <button class="tab-button" onclick="showTab('socialskills-tier2')">Tier two intervention</button>
+        <button class="tab-button" onclick="showTab('socialskills-resources')">Resources</button>
+    </div>
+    <div class="tab-content" id="socialskills-what">
+        <ul>
+            <li>Interacts and navigates their environment in an awkward or odd manner.</li>
+            <li>Antagonizes others.</li>
+            <li>Annoy, poke, hit, tap, or get the attention of others then run away.</li>
+            <li>Have poor concept of appropriate times and places to say certain things.</li>
+            <li>Teases others frequently.</li>
+            <li>Has younger or more immature friends.</li>
+            <li>Seems emotionally immature.</li>
+            <li>Has difficulty making or maintaining friendships.</li>
+            <li>Displays inappropriate behaviors.</li>
+            <li>Always try to top others, be better, win every time.</li>
+            <li>Poor winner and loser.</li>
+            <li>Plays alone or parallel play.</li>
+            <li>Acts silly in an attempt to make others laugh.</li>
+            <li>Is overprotective of relationships.</li>
+        </ul>
+    </div>
+    <div class="tab-content" id="socialskills-tier1" style="display:none;">
+        <ul>
+            <li>Assign a buddy.</li>
+            <li>Teach appropriate ways to interact with others/ opportunities for social interaction.</li>
+            <li>Teach social skills.</li>
+            <li>Move to a new location.</li>
+            <li>Focus attention without calling attention in a negative manner.</li>
+        </ul>
+    </div>
+    <div class="tab-content" id="socialskills-tier2" style="display:none;">
+        <ul>
+            <li>Seek advice from pastoral care.</li>
+            <li>Discuss with SLT or redirect learner to SLT.</li>
+            <li>Hui with parents.</li>
+            <li>RTLB.</li>
+            <li>Social skills intervention.</li>
+            <li>Goal setting, monitoring, and tracking.</li>
+        </ul>
+    </div>
+</div>
+
+    <div class="tab-content" id="socialskills-resources" style="display:none;">
+        <ul>
+            <li><a href="https://drive.google.com/drive/u/1/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">A-Z of Facing Feelings</a></li>
+            <li><a href="https://drive.google.com/file/d/1XoQAjeoLfDSUaPR3MIb3oY8N_LFwqzSg/view?usp=drive_link" target="_blank">All emotions are ok</a></li>
+            <li><a href="https://drive.google.com/file/d/1WpUwjV2aoEw9cXk0gU3ZwK3T8Y_Y3yL4/view?usp=drive_link" target="_blank">Social skills mix and match faces</a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    function showTab(tabId) {
+        const contents = document.querySelectorAll('.tab-content');
+        contents.forEach(content => content.style.display = 'none');
+        document.getElementById(tabId).style.display = 'block';
+    }
+</script>
+
+<!-- Tantrums/Out of Control Section -->
+<div class="behavior-section">
+    <h2>Tantrums/Out of Control</h2>
+    <div class="tabs">
+        <button class="tab-button" onclick="showTab('tantrums-what')">What it is?</button>
+        <button class="tab-button" onclick="showTab('tantrums-tier1')">Tier one intervention</button>
+        <button class="tab-button" onclick="showTab('tantrums-tier2')">Tier two intervention</button>
+        <button class="tab-button" onclick="showTab('tantrums-resources')">Resources</button>
+    </div>
+    <div class="tab-content" id="tantrums-what">
+        <ul>
+            <li>Fails to respond to redirection, calming, or de-escalation efforts.</li>
+            <li>Extremely oppositional and defiant.</li>
+            <li>Deliberately destroys items, furniture, toys, supplies, etc.</li>
+            <li>Yells, screams, hits, kicks, bites, flails, stomps, rolls on the ground, crawls, hits head on things.</li>
+            <li>Lays on the floor and refuses to do what is asked.</li>
+            <li>Runs out of or around the room.</li>
+            <li>Runs out of school.</li>
+            <li>Expresses no concern for consequences.</li>
+            <li>Runs from adults and authority figures.</li>
+            <li>Yells “no”, “I don’t want to”, “I don’t have to”, “Make me”, etc.</li>
+        </ul>
+    </div>
+    <div class="tab-content" id="tantrums-tier1" style="display:none;">
+        <ul>
+            <li>Avoid power struggles. Keep responses brief, to the point. Avoid lecturing, talking at length, or patronizing.</li>
+            <li>Use a calm and neutral tone. DO NOT match the emotional level of the student.</li>
+            <li>Try stating the expectation and consequence, tell the student the choice is theirs, and walk away.</li>
+            <li>If the student looks too distressed, walk away or stand at a distance, looking away.</li>
+            <li>Offer several choices, give a timeline to decide within, and walk away.</li>
+            <li>Try re-direction if learner is able to be de-escalated.</li>
+            <li>Remove student from situation and discuss the issue after time to calm down.</li>
+            <li>Use reflective listening (e.g., “I hear that you’re feeling upset”).</li>
+            <li>Count to 10, redirect to Zones of Regulation strategies if the learner seems receptive.</li>
+            <li>Move to a breakout room or a quieter corner in the habitat.</li>
+        </ul>
+    </div>
+    <div class="tab-content" id="tantrums-tier2" style="display:none;">
+        <ul>
+            <li>Seek advice from pastoral care.</li>
+            <li>Discuss with SLT or redirect learner to SLT.</li>
+            <li>Hui with parents.</li>
+            <li>Refer to RTLB if the behavior is ongoing and Tier 1 strategies have not been effective.</li>
+            <li>Do a well-being check to rule out other reasons for the emotional outbursts.</li>
+            <li>Create a behavior de-escalation plan in consultation with SLT.</li>
+        </ul>
+    </div>
+</div>
+
+    <div class="tab-content" id="tantrums-resources" style="display:none;">
+        <ul>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">Deep Breathing Exercises</a></li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT">Zones of Regulation</a></li>
+            <li>Teach Coping Skills?</li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT">Reflection Sheet</a></li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT" target="_blank">Daily Behavior Tracking Sheet</a></li>
+            <li><a href="https://drive.google.com/drive/u/1/folders/1nIb5v6NUvK5HLADTfceACYt_lfIiU7RT">A-Z of Facing Feelings</a></li>
+            <li><a href="https://drive.google.com/file/d/1XoQAjeoLfDSUaPR3MIb3oY8N_LFwqzSg/view?usp=drive_link">All emotions are ok</a></li>
+            <li><a href="https://drive.google.com/file/d/1JcTl7W-Hb0s70F6P2zG4lMq7F0ynY7E3/view?usp=drive_link">A Volcano in my Tummy</a></li>
+            <li><a href="https://drive.google.com/file/d/1nm0GnFb461b_EE7PLdQQLqVMWSfqmTAM/view?usp=drive_link">Anger activity book</a></li>
+            <li><a href="https://drive.google.com/file/d/133SMLzRQ_Lcb4GJr-vVKOZequQ0AhLio/view?usp=drive_link">Anger Manual</a></li>
+            <li><a href="https://drive.google.com/file/d/10aTsZ5f8qHMllrXabLQ_8A5X7Xd2UBda/view?usp=drive_link">The Red Beast</a></li>
+            <li><a href="https://drive.google.com/file/d/16IK4bLz-7L0MPtCRzds6njQZyeEtaEfX/view?usp=drive_link">Starving the Anger Gremlin</a></li>
+            <li><a href="https://drive.google.com/file/d/1AIN0GBz3nXD2vbDYBKMjytSuhkHoCJ9h/view?usp=drive_link">Anger Iceberg Guide Activity Worksheets for Children</a></li>
+            <li><a href="https://drive.google.com/file/d/1lVX06zQaA_7P9GicChQEZcVbOnZY5nAK/view?usp=drive_link">Calm down anger with yoga</a></li>
+            <li><a href="https://drive.google.com/file/d/1o5ooBSxjAHs3B2MPWFvTYBkqA_xJ0CwV/view?usp=drive_link">How do i feel when i get angry</a></li>
+            <li><a href="https://drive.google.com/file/d/1Q87x4rbiVyaVtIkvOWxNTYsDNGGfv0Jr/view?usp=drive_link">Tucker Turtle</a></li>
+            <li><a href="https://drive.google.com/file/d/1PuxoLqRSkaqlCLdpUQ5KE63sI9_36zOI/view?usp=drive_link">Cool down plan</a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    function showTab(tabId) {
+        const contents = document.querySelectorAll('.tab-content');
+        contents.forEach(content => content.style.display = 'none');
+        document.getElementById(tabId).style.display = 'block';
+    }
+</script>
+
+
+    <script>
+        // Show the main content after a delay
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+        }
+
+        // Function to show the tab content
+        function showTab(tabId) {
+            // Hide all tab contents
+            const tabContents = document.querySelectorAll('.tab-content');
+            tabContents.forEach(content => {
+                content.style.display = 'none';
+            });
+
+            // Show the selected tab content
+            document.getElementById(tabId).style.display = 'block';
+        }
+
+        // Function to open a PDF in a new tab
+        function openPDF(pdfUrl) {
+            window.open(pdfUrl, '_blank');
+        }
+    </script>
+</body>
+</html>
